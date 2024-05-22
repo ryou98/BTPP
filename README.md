@@ -50,15 +50,6 @@ where he starting model is enhanced by pre-training using the SGD optimizer on t
 To reproduce the experimental results in our paper, we provide the bash script.
 ```{bash}
 bash mnist.sh
-bash cifar10.sh
 ```
 
 To plot the learning curves, we provide the MATLAB script in `record/loss_ht_mnist.m` etc. 
-
-## Results
-
-We test the performance of BTPP on MNIST and CIFAR10.
-
-| Algorithm          | MNIST           | CIFAR10        |
-| ------------------ |---------------- | -------------- |
-| BTPP  ($B=2$)      |     85%         |      95%       |
